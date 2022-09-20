@@ -1,0 +1,806 @@
+@media screen and (max-width: 1024px) {
+
+	#menu {
+		//background-color: red;
+	}
+
+	#zone {
+		width: 47%;
+	}
+	#lga {
+		width: 47%;
+	}
+	#ward {
+		width: 47%;
+	}
+
+	.zone_num h2 {
+		margin-top: 35%;
+	}
+	.lga_num h2 {
+		margin-top: 35%;
+	}
+	.ward_num h2 {
+		margin-top: 35%;
+	}
+	.polling_units_num h2{
+		margin-top: 35%;
+	}
+	#sidebar li a {
+		margin-left: 30%;
+	}
+	#sidebar li img {
+		left: 10%;
+	}
+	.zone_icon img {
+		width: 80%;
+		height: 90px;
+	}
+	.lga_icon img {
+		width: 70%;
+		height: 80px;
+	}
+	.ward_icon img {
+		width: 65%;
+		height: 80px;
+	}
+	.polling_units_icon img {
+		height: 105px;
+		margin-top: 15%;
+		margin-left: 10%;
+	}
+	.view_detail_icon img {
+		width: 83%;
+	}
+	.view_detail_icon_p img {
+		width: 83%;
+		margin-left: 15%;
+	}
+	.contact_people_icon img {
+		width: 60%;
+		height: 70%;
+		margin-left: 10%;
+		margin-top: 15%;
+	}
+	.view_detail_letter_p p {
+		margin-top: 15%;
+	}
+	#zone_form button {
+		width: 80px;
+	}
+	#zone_1 {
+		width: 42%;
+		margin-left: 3%;
+	}
+	#add_zone input {
+		width: 50%;
+	}
+	#add_zone button {
+		margin-left: 15%;
+	}
+	#lga_1 {
+		width: 30%;
+	}
+	#polling_1 {
+		width: 30%;
+	}
+	#lga_1_single {
+		width: 30%;
+	}
+	#all_contact_form {
+		width: 100%;
+		margin-left: 1%;
+	}
+	.contact_txt {
+		font-size: 13px;
+	}
+	#container {
+		width: 80%;
+		//overflow: auto;
+	}
+	.contact_title {
+		width: 80%;
+	}
+	.add_contact_btn {
+		width: 20%;
+	}
+	#logo_name img{
+	width: 5.2% !important;
+	}
+	#unselectall {
+		width: 13%;
+	}
+	#modal {
+		width: 40%;
+	}
+	#send_sms_container{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#menu {
+		//background-color: brown !important;
+		width: 100% !important;
+	}
+	.delete_btn {
+		display: none;
+	}
+	.edit_btn {
+		width: 6.8%;
+	}
+	#sidebar {
+		display: none;
+		width: 30%;
+	}
+	#hamburger {
+		display: block;
+	}
+	#close {
+		display: block;
+	}
+	#add_lga_form button {
+		margin-left: 35%;
+	}
+	#container {
+		width: 100%;
+		left: 0;
+		margin-left: 0;
+		//overflow: auto;
+		//white-space: nowrap;
+	}
+	#hamburger {
+		width: 10%;
+	}
+	#logo_name {
+		width: 90%;
+	}
+	#all_contact_form {
+		//overflow: auto;
+		//white-space: nowrap;
+	}
+	#add_zone input {
+		margin-left: 2%;
+	}
+	#add_zone button {
+		margin-left: 18%;
+	}
+	#new_contact_form {
+		width: 95%;
+	}
+	.checkbox{
+		width: 3%;
+	}
+	.contact_rank {
+		width: 42%;
+		font-size: 10px;
+	}
+	#logo_name img{
+	width: 7% !important;
+	}
+	#add_ward {
+		padding-right: 4px;
+		padding-left: 4px;
+	}
+	#modal {
+		width: 45%;
+		left: 28%;
+	}
+	#modal img {
+		left: 20%;
+	}
+	#send_sms_container{
+		width: 95%;
+	}
+	#content {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#menu {
+		//background-color: rgb(169, 233, 21) !important;
+		width: 100% !important;
+	}
+
+	#container {
+		//background-color: red;
+	}
+	#zone {
+		width: 70%;
+		//float: none;
+		margin-left: 15%;
+	}
+	#sidebar {
+		width: 40%;
+	}
+	#lga {
+		width: 70%;
+		//float: none;
+		margin-left: 15%;
+	}
+	#ward {
+		width: 70%;
+		//float: none;
+		margin-left: 15%;
+	}
+	#polling_units {
+		width: 70%;
+		//float: none;
+		margin-left: 15%;
+	}
+	#contact_people {
+		width: 70%;
+		//float: none;
+		margin-left: 15%;
+	}
+	#dash_con {
+		margin-left: 5%;
+	}
+	#zone_form input {
+		width: 80%;
+	}
+	#zone_form {
+		margin-left: 3%;
+	}
+	#add_lga {
+		width: 35%;
+	}
+	#add_ward {
+		width: 35%;
+	}
+	#edit_box_lga {
+		width: 25%;
+	}
+	#edit_box_lga_sing {
+		width: 35%;
+		margin-top: 20%;
+	}
+	#add_polling_unit {
+		font-size: 14px;
+		font-weight: bold;
+		font-family: sans-serif;
+	}
+	#lga_1_single {
+		height: 120px;
+	}
+	#lga_1 {
+		width: 46%;
+	}
+	#polling_1 {
+		width: 46%;
+	}
+	#add_lga_container {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.contact_title{
+		width: 70%;
+		font-size: 20px;
+	}
+	.add_contact_btn {
+		width: auto;
+		padding: 5px;
+	}
+	#contact_form button {
+		width: auto;
+		padding: 8px;
+	}
+	#selectall {
+		width: auto;
+		padding: 5px;
+	}
+	.sendsms {
+		width: auto;
+		padding: 5px;
+	}
+	.contact_txt {
+		font-size: 8px;
+	}
+	.contact_rank {
+		font-size: 8px;
+		width: 45%;
+	}
+	.edit_btn {
+		width: 7%;
+		font-size: 10px;
+	}
+	#logo_name img{
+	width: 10% !important;
+	top: 3px;
+	}
+	#contact_form input {
+		width: 80%;
+	}
+	#delete_box_lga_sing{
+		width: 35%;
+		margin-left: 5%;
+		margin-top: 20%;
+	}
+	#delete_box {
+		width: 35%;
+	}
+	#unselectall {
+		width: auto;
+	}
+	#delete_box_ward_sing {
+		width: 40%;
+		margin-top: 20%;
+	}
+	#delete_box_polling_sing{
+		width: 40%;
+		margin-top: 20%;
+	}
+	#modal {
+		width: 60%;
+		left: 20%;
+		height: 270px;
+	}
+	#modal img {
+		left: 17%;
+	}
+	#send_sms_container {
+		width: 90%;
+		margin: 0 auto;
+	}
+	#sms_header {
+		margin-left: 5%;
+	}
+	#send_sms_form main {
+		width: 73%;
+		margin-left: 4%;
+	}
+	main button {
+		width: 40%;
+		margin-top: 4%;
+		padding: 10px;
+	}
+	#recipient_number {
+		line-height: 20px;
+		margin-top: 2%;
+	}
+	#send_sms_form aside {
+		height: 340px;
+		width: 20%;
+	}
+	.num {
+		font-size: 12px;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
+	#menu {
+		//background-color: rgb(155, 21, 233) !important;
+		width: 100% !important;
+	}
+	#new_contact_form {
+		width: 97%;
+	}
+	#zone {
+		width: 80%;
+		margin-left: 10%;
+	}
+	#lga {
+		width: 80%;
+		//float: none;
+		margin-left: 10%;
+	}
+	#ward {
+		width: 80%;
+		//float: none;
+		margin-left: 10%;
+	}
+	#polling_units {
+		width: 80%;
+		//float: none;
+		margin-left: 10%;
+	}
+	#contact_people {
+		width: 80%;
+		//float: none;
+		margin-left: 10%;
+	}
+	#zone_form input {
+		width: 75%;
+	}
+	#sidebar {
+		width: 60%;
+	}
+	#zone_1 {
+		width: 70%;
+		margin-left: 12%;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+	#lga_1 {
+		width: 75%;
+		margin-left: 12%;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+	#container p {
+		margin-left: 4%;
+	}
+	#polling_1 {
+		width: 75%;
+		margin-left: 12%;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+	#lga_1_single {
+		width: 46%;
+	}
+	.lga_num h2 {
+		margin-left: 5%;
+	}
+	.zone_num h2 {
+		margin-left: 10%;
+	}
+	#hamburger {
+		width: 15%;
+	}
+	#logo_name {
+		width: 85%;
+	}
+	#add_zone input {
+		width: 70%;
+		margin-left: 10%;
+	}
+	#add_zone button {
+		margin-left: 30%;
+		width: 25%;
+	}
+	#add_lga_container {
+		height: 220px;
+		margin-left: 10%;
+	}
+	.contact_title {
+		width: 60%;
+		font-size: 18px;
+	}
+	.add_contact_btn {
+		padding: 5px;
+		margin-left: 10%;
+		font-size: 12px;
+	}
+	.contact_txt {
+		font-size: 6px;
+	}
+	.contact_rank {
+		font-size: 6px;
+		width: 40%;
+	}
+	.contact_name {
+		width: 47%;
+
+	}
+	#contact_form input {
+		width: 80%;
+	}
+	#logo_name img{
+	width: 13% !important;
+	top: 3px;
+	//height: 50px;
+	}
+	.chekbx {
+		width: 3.5%;
+	}
+	#add_contact {
+		width: 25%;
+	}
+	#modal {
+		width: 70%;
+		left: 14%;
+		height: 250px;
+	}
+	#modal img {
+		left: 23%;
+		top: 0;
+		width: 150px;
+		height: 85px;
+	}
+	#cancel{
+		margin-top: 5%;
+	}
+	#delete{
+		margin-top: 5%;
+	}
+	#areu {
+		padding-top: 22%;
+	}
+	#delete_lga {
+		margin-top: 5%;
+	}
+	#delete_ward {
+		margin-top: 5%;
+	}
+	#delete_polling {
+		margin-top: 5%;
+	}
+	#send_sms_container {
+		height: 410px;
+	}
+	#send_sms_form aside {
+		width: 20%;
+		height: 310px;
+	}
+	#recipient_number {
+		font-size: 15px;
+	}
+	main textarea {
+		height: 225px;
+		width: 100%;
+	}
+	main input {
+		width: 100%;
+	}
+	#send_sms_form main {
+	width: 70%;
+	margin-left: 3%;
+	}
+	main button {
+		width: 50%;
+	}
+	#send_sms_form {
+		height: 360px;
+	}
+	#recipient_number {
+		font-size: 14px;
+	}
+	#recipient_message {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	#menu {
+		//background-color: rgb(233, 99, 21) !important;
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+	#menu {
+		//background-color: purple !important;
+		width: 100% !important;
+	}
+	#zone_form input {
+		width: 70%;
+	}
+	#contact_form input {
+		width: 75%;
+	}
+	#logo_name img{
+	width: 15% !important;
+	top: 3px;
+	//height: 50px;
+	}
+	.chekbx {
+		width: 3.5%;
+	}
+	#add_contact {
+		width: 30%;
+	}
+	.contact_a_delegate {
+		width: 50% !important;
+	}
+	.group_action {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	#modal {
+		width: 80%;
+		left: 9%;
+		height: 250px;
+	}
+	#modal img {
+		left: 23%;
+		top: 0;
+		width: 155px;
+		height: 85px;
+	}
+	#cancel{
+		margin-top: 5%;
+	}
+	#delete{
+		margin-top: 5%;
+	}
+	#areu {
+		padding-top: 22%;
+	}
+	main button {
+		width: 60%;
+	}
+	#send_sms_form aside {
+		width: 20%;
+	}
+	#recipient_number {
+		font-size: 13px;
+	}
+	#recipient_message {
+		font-size: 14px;
+	}
+	#send_sms_form main {
+		width: 70%;
+	}
+	main input[type=text] {
+		font-size: 14px;
+	}
+	textarea::placeholder {
+		font-size: 15px;
+	}
+	.num {
+		font-size: 8px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#add_lga_container {
+		height: 180px;
+		width: 90%;
+		margin-left: 5%;
+	}
+	.contact_txt {
+		font-size: 5px;
+	}
+	.contact_rank {
+		font-size: 5px;
+	}
+	#contact_form input {
+		width: 78%;
+	}
+	#selectall{
+		font-size: 11px;
+	}
+	#unselectall {
+		font-size: 11px;
+	}
+	.sendsms {
+		font-size: 11px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
+
+@media screen and (max-width: 280px)  {
+	#menu {
+		//background-color: violet !important;
+		width: 100% !important;
+	}
+	#add_lga_form button {
+		margin-left: 30%;
+	}
+
+	#sidebar {
+		width: 70%;
+	}
+	#zone {
+		width: 93%;
+		margin-left: 3%;
+		//height: 180px;
+	}
+	.view_detail_icon img {
+		width: 100%;
+	}
+	#lga{
+		width: 93%;
+		margin-left: 3%;
+	}
+	#ward{
+		width: 93%;
+		margin-left: 3%;
+	}
+	#polling_units{
+		width: 93%;
+		margin-left: 3%;
+	}
+	#contact_people{
+		width: 93%;
+		margin-left: 3%;
+	}
+	.zone_icon img {
+		height: 80px;
+	}
+	.lga_icon img {
+		height: 70px;
+	}
+	.ward_icon img {
+		height: 70px;
+	}
+	.polling_units_icon img {
+		height: 95px;
+	}
+	.contact_people_icon img {
+		height: 80px;
+		width: 70%;
+	}
+	#contact_form input {
+		width: 70%;
+	}
+	#logo_name img{
+	width: 20% !important;
+	top: 3px;
+	//height: 50px;
+	}
+	.chekbx {
+		width: 3.5%;
+	}
+	#add_contact {
+		width: 40%;
+	}
+	.contact_a_delegate {
+		width: 70% !important;
+	}
+	.contact_title {
+		width: 50%;
+		font-size: 18px;
+	}
+	#zone_units li {
+		font-size: 13px;
+	}
+	#delete_box_lga {
+		display: none;
+	}
+	#add_ward {
+		width: 40%;
+	}
+	#zone_1 {
+		width: 80%;
+		margin-left: 5%;
+	}
+	#zone_form button {
+		width: 23%;
+	}
+	#selectall{
+		font-size: 9px;
+		margin-left: 1px;
+	}
+	#unselectall {
+		font-size: 9px;
+		margin-left: 1px;
+	}
+	.sendsms {
+		font-size: 9px;
+		margin-left: 1px;
+	}
+	.group_action {
+		font-size: 11px;
+	}
+	#modal {
+		width: 87%;
+		left: 6%;
+		height: 230px;
+	}
+	#modal img {
+		left: 22%;
+		top: 0;
+		width: 130px;
+		height: 70px;
+	}
+	#cancel{
+		margin-top: 5%;
+	}
+	#delete{
+		margin-top: 5%;
+	}
+	#areu {
+		padding-top: 22%;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	main button {
+		width: 80%;
+	}
+	#recipient_number {
+		font-size: 10px;
+	}
+	#recipient_message {
+		font-size: 11px;
+	}
+}

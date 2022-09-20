@@ -1,0 +1,569 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+article {
+	word-wrap: break-word !important;
+}
+body {
+	//overflow-x: hidden;
+}
+#close {
+	position: absolute;
+	z-index: +10;
+	width: 35px;
+	height: 35px;
+	left: 85%;
+	cursor: pointer;
+	display: none;
+}
+#menu {
+	width: 100%;
+	height: 70px;
+	background-color: green;
+}
+#logo_name {
+	width: 95%;
+	height: 50px;
+	//background-color: red;
+	float: left;
+}
+#logo_name img{
+	width: 60%;
+	height: 40px;
+	z-index: +50;
+	position: absolute;
+}
+#logo_1 {
+	width: 93%;
+	height: 20px;
+	float: left;
+	//background-color: yellow;
+	padding-left: 7%;
+	color: red;
+	color: white;
+	color: yellow;
+	font-weight: bold;
+	line-height: 30px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+#logo_2 {
+	width: 96.5%;
+	height: 20px;
+	float: left;
+	//background-color: blue;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	line-height: 23px;
+	padding-left: 2.5%;
+}
+#logo_3 {
+	width: 96%;
+	height: 30px;
+	float: left;
+	//background-color: pink;
+	font-weight: bold;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-left: 4%;
+}
+#sub_zone:hover {
+	background-color: #224f12;
+}
+#sub_lga:hover {
+	background-color: #224f12;
+}
+#sub_ward:hover {
+	background-color: #224f12;
+}
+#sub_polling_units:hover {
+	background-color: #224f12;
+}
+#sub_contact_people:hover {
+	background-color: #224f12;
+}
+#hamburger {
+	width: 5%;
+	height: 50px;
+	//background-color: purple;
+	float: left;
+	display: none;
+}
+#hamburger img {
+	width: 80%;
+	height: 40px;
+	display: block;
+	margin-top: 5%;
+	cursor: pointer;
+	//display: none;
+}
+#sidebar {
+	width: 19%;
+	height: 606px;
+	background-color: #f4f4f4;
+	float: left;
+	border-right: 1px solid #b9b9b9;
+	//margin-left: -100%;
+	position: absolute;
+	z-index: +8;
+	//left: 8%;
+	transition: ease-out;
+
+}
+#container {
+	width: 78.7%;
+	//width: 90%;
+	//height: 606px;
+	background-color: white;
+	float: left;
+	padding-bottom: 5%;
+	//background-color: blue;
+	margin-left: 2%;
+	position: relative;
+	left: 18%;
+	//overflow-x: auto;
+	//white-space: nowrap;
+}
+
+#zonesearch_result {
+	width: 90%;
+	height: 50px;
+	//background-color: red;
+	float: left;
+	margin-left: 2%;
+	line-height: 50px;
+}
+#dash_con {
+	background-color: white;
+	width: 90%;
+	height: 60px;
+	float: left;
+	border-bottom: 1px solid #f4f4f4;
+	line-height: 60px;
+	margin-left: 2%;
+}
+#zone {
+	width: 31%;
+	height: 200px;
+	background-color: green;
+	float: left;
+	margin: 10px;
+	border: 1px solid green;
+}
+#lga {
+	width: 31%;
+	height: 200px;
+	background-color: green;
+	float: left;
+	margin: 10px;
+	border: 1px solid green;
+}
+#ward {
+	width: 31%;
+	height: 200px;
+	background-color: green;
+	float: left;
+	margin: 10px;
+	border: 1px solid green;
+}
+#polling_units {
+	width: 47%;
+	height: 200px;
+	background-color: green;
+	float: left;
+	margin: 10px;
+	border: 1px solid green;
+}
+#contact_people {
+	width: 47%;
+	height: 200px;
+	background-color: green;
+	float: left;
+	margin: 10px;
+	border: 1px solid green;
+}
+#sub_zone {
+	width: 100%;
+	height: 140px;
+	background-color: green;
+	float: left;
+}
+#sub_lga {
+	width: 100%;
+	height: 140px;
+	background-color: green;
+	float: left;
+}
+#sub_ward {
+	width: 100%;
+	height: 140px;
+	background-color: green;
+	float: left;
+}
+#sub_polling_units {
+	width: 100%;
+	height: 140px;
+	background-color: green;
+	float: left;
+}
+#sub_contact_people {
+	width: 100%;
+	height: 140px;
+	background-color: green;
+	float: left;
+}
+#view_detail {
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	float: left;
+}
+
+.zone_num {
+	width: 60%;
+	height: 140px;
+	//background-color: yellow;
+	float: left;
+}
+.zone_icon {
+	width: 40%;
+	height: 140px;
+	//background-color: red;
+	float: left;
+}
+.lga_num {
+	width: 60%;
+	height: 140px;
+	//background-color: yellow;
+	float: left;
+}
+.lga_icon {
+	width: 40%;
+	height: 140px;
+	//background-color: red;
+	float: left;
+}
+.ward_num {
+	width: 60%;
+	height: 140px;
+	//background-color: yellow;
+	float: left;
+}
+.ward_icon {
+	width: 40%;
+	height: 140px;
+	//background-color: red;
+	float: left;
+}
+.polling_units_num {
+	width: 60%;
+	height: 140px;
+	//background-color: yellow;
+	float: left;
+}
+.polling_units_icon {
+	width: 40%;
+	height: 140px;
+	//background-color: red;
+	float: left;
+}
+.contact_people_num {
+	width: 60%;
+	height: 140px;
+	//background-color: yellow;
+	float: left;
+}
+.contact_people_icon {
+	width: 40%;
+	height: 140px;
+	//background-color: red;
+	float: left;
+}
+.view_detail_letter {
+	width: 70%;
+	height: 60px;
+	float: left;
+	//background-color: brown;
+
+}
+.view_detail_icon {
+	width: 30%;
+	height: 60px;
+	float: left;
+	//background-color: purple;
+	
+}
+.view_detail_letter_p {
+	width: 70%;
+	height: 60px;
+	float: left;
+	//background-color: brown;
+
+}
+.view_detail_icon_p {
+	width: 30%;
+	height: 60px;
+	float: left;
+	//background-color: purple;
+	
+}
+#sidebar li {
+	//width: 95%;
+	height: 70px;
+	background-color: #f5f5f5;
+	//margin: 4px;
+	line-height: 60px;
+	list-style-type: none;
+	border-bottom: 1px solid #b9b9b9;
+}
+#sidebar li:hover {
+	background-color: #d8d8d8;
+}
+#sidebar li a {
+	margin-left: 16%;
+	color: green;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+#user_sub a {
+	margin-left: 20% !important;
+	color: green;
+	font-weight: bold;
+	//font-family: sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+}
+#user_sub {
+	border-bottom: 1px solid #b9b9b9;
+}
+.arrow_left {
+	position: absolute;
+	//display: block;
+	width: 50px;
+	height: 30px;
+	top: 13%;
+	left: 80%;
+	//background-color: red;
+}
+.arrow_left img {
+	width: 60%;
+	height: 30px;
+}
+#sub_user_holder {
+	//display: none !important;
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+	//height: 140px;
+	position: absolute;
+	z-index: +555;
+	display: none;
+}
+.rotate {
+	transform: rotate(90deg);
+}
+.zone_icon img {
+	width: 90%;
+	height: 100px;
+	display: block;
+	margin-top: 15%;
+	margin-left: 10%;
+}
+.lga_icon img {
+	width: 80%;
+	height: 90px;
+	display: block;
+	margin-top: 22%;
+	margin-left: 10%;
+}
+.ward_icon img {
+	width: 80%;
+	height: 90px;
+	display: block;
+	margin-top: 22%;
+	margin-left: 10%;
+}
+.polling_units_icon img {
+	width: 80%;
+	height: 120px;
+	display: block;
+	margin-top: 10%;
+	margin-left: 25%;
+}
+.contact_people_icon img {
+	width: 60%;
+	height: 110px;
+	display: block;
+	margin-top: 10%;
+	margin-left: 32%;
+}
+.zone_num h2 {
+	margin-top: 45%;
+	margin-left: 7%;
+	color: white;
+}
+
+.zone_num p {
+	margin-left: 7%;
+	//font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	font-size: 13px;
+}
+.lga_num h2 {
+	margin-top: 45%;
+	margin-left: 3%;
+	color: white;
+}
+.lga_num p {
+	margin-left: 7%;
+	//font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	font-size: 13px;
+}
+.ward_num h2 {
+	margin-top: 45%;
+	margin-left: 5%;
+	color: white;
+}
+.ward_num p {
+	margin-left: 7%;
+	//font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	font-size: 13px;
+}
+.polling_units_num h2 {
+	margin-top: 28%;
+	margin-left: 15%;
+	color: white;
+	
+}
+.polling_units_num p {
+	margin-left: 7%;
+	//font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	font-size: 14px;
+	
+}
+.contact_people_num h2 {
+	margin-top: 28%;
+	margin-left: 15%;
+	color: white;
+	
+}
+.contact_people_num p {
+	margin-left: 7%;
+	//font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	font-size: 14px;
+	
+}
+.view_detail_letter p {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: green;
+	margin-top: 15%;
+	margin-left: 7%;
+	font-size: 14px;
+}
+.view_detail_icon img {
+	width: 90%;
+	height: 90px;
+	margin-left: 15%;
+}
+.view_detail_letter_p p {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: green;
+	margin-top: 9%;
+	margin-left: 7%;
+	font-size: 14px;
+}
+.view_detail_icon_p img {
+	width: 60%;
+	height: 90px;
+	margin-left: 40%;
+}
+.dash_img {
+	width: 40px;
+	height: 40px;
+	line-height: 60px;
+	position: absolute;
+	z-index: +1;
+	top: 13%;
+	left: 1%;
+}
+#dash_li {
+	position: relative;
+}
+.umb_img {
+	width: 50px;
+	height: 40px;
+	line-height: 60px;
+	position: absolute;
+	z-index: +1;
+	top: 10%;
+}
+#zone_li {
+	position: relative;
+}
+.lga_img {
+	width: 40px;
+	height: 40px;
+	line-height: 60px;
+	position: absolute;
+	z-index: +1;
+	top: 10%;
+	left: 1%;
+}
+#lga_li {
+	position: relative;
+}
+.ward_img {
+	width: 40px;
+	height: 40px;
+	line-height: 60px;
+	position: absolute;
+	z-index: +1;
+	top: 10%;
+	left: 1%;
+}
+#ward_li {
+	position: relative;
+}
+.polling_img {
+	width: 50px;
+	height: 50px;
+	line-height: 60px;
+	position: absolute;
+	z-index: +1;
+	top: 5%;
+
+}
+#polling_li {
+	position: relative;
+}
+.con_img {
+	width: 50px;
+	height: 50px;
+	line-height: 60px;
+	position: absolute;
+	z-index: +1;
+	top: 5%;
+}
+#contact_li {
+	position: relative;
+}
+#user_li {
+	position: relative;
+	cursor: pointer;
+}

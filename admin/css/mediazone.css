@@ -1,0 +1,6 @@
+@media and (max-width: 768px) {
+	#menu {
+		background-color: brown !important;
+		width: 100% !important;
+	}
+}

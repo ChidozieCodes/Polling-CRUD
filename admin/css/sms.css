@@ -1,0 +1,114 @@
+#sms_header {
+	width: 100%;
+	height: 40px;
+	//background-color: red;
+	font-size: 25px;
+	margin-top: 3%;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 2%;
+}
+#send_sms_container {
+	width: 70%;
+	height: 470px;
+	//background-color: red;
+	margin-left: 2%;
+	border: 1px solid green;
+}
+#send_sms_green {
+	width: 100%;
+	height: 20px;
+	background-color: green;
+}
+#send_sms_form {
+	width: 95%;
+	height: 400px;
+	border: 1px solid #e5e4e4;
+	margin: 2% auto;
+}
+#send_sms_form aside {
+	width: 25%;
+	height: 350px;
+	border: 1px solid #e5e4e4; 
+	float: left;
+}
+#send_sms_form main {
+	width: 69.7%;
+	height: 400px;
+	//background-color: #d7d3d3;
+	float: left;
+}
+main input {
+	width: 95%;
+	height: 45px;
+	margin: 2% auto;
+	display: block;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #e5e4e4;
+}
+main textarea {
+	width: 95%;
+	height: 250px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid #e5e4e4;
+}
+main input[type=text] {
+	outline: none;
+	padding-left: 2%;
+	text-transform: uppercase;
+	//font-weight: bold;
+	font-size: 16px;
+}
+main input[type=text]:focus {
+	border:none;
+  	box-shadow: 0 0 3px 1px skyblue;
+  	outline-width: 0px;
+  	outline: none;
+}
+
+main button {
+	border: none;
+	padding: 5px;
+	width: 30%;
+	height: auto;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	margin-left: 2%;
+	margin-top: 1%;
+	border-radius: 4px;
+}
+main textarea:focus {
+	border:none;
+  	box-shadow: 0 0 3px 1px skyblue;
+  	outline-width: 0px;
+  	outline: none;
+}
+textarea::placeholder {
+	font-size: 17px;
+}
+#recipient_number {
+	width: 95%;
+	height: 60px;
+	line-height: 60px;
+	//background-color: grey;
+	//text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 5%;
+}
+#recipient_message {
+	width: 95%;
+	height: 60px;
+	//background-color: grey;
+	//text-align: center;
+	margin-top: 10%;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 5%;
+}
